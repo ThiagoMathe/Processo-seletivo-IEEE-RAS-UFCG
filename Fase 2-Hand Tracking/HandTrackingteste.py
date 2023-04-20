@@ -27,7 +27,7 @@ while True:
             contador = 0
             
             if pontos:
-                # dedo polegar pegando o eixo se estiver a direita contamos como dedo levantando e assim somados a um contador
+                # dedo polegar pegando o eixo se estiver a direita contamos como dedo levantado e assim somados a um contador
                 if pontos[4][0] < pontos[3][0]:
                     contador += 1
                 # verificar se os pontos superiores sao maiores que os dois pontos abaixo, se tiver ele conta como dedo levantado   
